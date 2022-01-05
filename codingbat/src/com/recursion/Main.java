@@ -4,8 +4,8 @@ import com.recursion.factorial.*;
 
 public class Main {
     public static void main(String[] args) {
-        SumDigits fibonacci = new SumDigits();
-        int fibonacci1 = fibonacci.sumDigits(170);
+        Count7 fibonacci = new Count7();
+        int fibonacci1 = fibonacci.count7(177);
         System.out.println("sum Digits" + fibonacci1);
 
     }
