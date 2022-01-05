@@ -4,9 +4,9 @@ import com.recursion.factorial.*;
 
 public class Main {
     public static void main(String[] args) {
-        Triangle fibonacci = new Triangle();
-        int fibonacci1 = fibonacci.triangle(2);
-        System.out.println(fibonacci1);
+        SumDigits fibonacci = new SumDigits();
+        int fibonacci1 = fibonacci.sumDigits(170);
+        System.out.println("sum Digits" + fibonacci1);
 
     }
 }
