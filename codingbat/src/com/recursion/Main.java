@@ -1,14 +1,11 @@
 package com.recursion;
 
-import com.recursion.factorial.BunnyEars;
-import com.recursion.factorial.BunnyEars2;
-import com.recursion.factorial.Factorial;
-import com.recursion.factorial.Fibonacci;
+import com.recursion.factorial.*;
 
 public class Main {
     public static void main(String[] args) {
-        BunnyEars2 fibonacci = new BunnyEars2();
-        int fibonacci1 = fibonacci.bunnyEars2(2);
+        Triangle fibonacci = new Triangle();
+        int fibonacci1 = fibonacci.triangle(2);
         System.out.println(fibonacci1);
 
     }
